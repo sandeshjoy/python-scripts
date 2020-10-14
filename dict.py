@@ -1,7 +1,6 @@
 def add_items(some_dict):
   # Add new items to dict
-  some_dict['k'] = 3
-  some_dic['k'] = 4
+  some_dict.update({'k': 3, 'l': 4})
   return some_dict
   
   
